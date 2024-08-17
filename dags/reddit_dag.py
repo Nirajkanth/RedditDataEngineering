@@ -45,4 +45,5 @@ upload_s3 = PythonOperator(
     dag=dag
 )
 
+print("H")
 extract >> upload_s3
